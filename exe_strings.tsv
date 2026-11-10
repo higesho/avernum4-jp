@@ -1,0 +1,757 @@
+va	sink	refs	english	japanese
+0x47f570	?	2	Graphics loading error. A key graphic is either missing or unloadable. Memory may be catastrophically low.	グラフィックの読み込みエラー。重要なグラフィックが見つからないか、読み込めない。メモリがひどく不足している可能性がある。
+0x47f5dc	message	1	Major Error: Too many instances on screen! Save and report!	
+0x47f618	?	1	F	
+0x47f630	?	1	S	
+0x47f6b4	?	2	W	
+0x47f6c8	?	1	A	
+0x47f6dc	?	6	M	
+0x47f6f8	?	6	A	
+0x47f708	?	1	DirectInput Error 1: Failed to initialize DirectInput. Restart computer and try again.	DirectInputエラー1: DirectInputの初期化に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f760	?	1	DirectInput Error 2: Failed to initialize keyboard. Restart computer and try again.	DirectInputエラー2: キーボードの初期化に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f7b8	?	1	DirectInput Error 3: Failed to set up keyboard. Restart computer and try again.	DirectInputエラー3: キーボードの設定に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f808	?	1	DirectInput Error 4: Failed to set up keyboard data format. Restart computer and try again.	DirectInputエラー4: キーボードのデータ形式の設定に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f868	?	1	DirectInput Error 5: Failed to acquire keyboard. Restart computer and try again.	DirectInputエラー5: キーボードを取得できなかった。コンピューターを再起動して、もう一度試してください。
+0x47f8c0	?	1	DirectInput Error 6: Failed to set up mouse. Restart computer and try again.	DirectInputエラー6: マウスの設定に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f910	?	1	DirectInput Error 7: Failed to set up mouse. Restart computer and try again.	DirectInputエラー7: マウスの設定に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f960	?	1	DirectInput Error 8: Failed to set up mouse. Restart computer and try again.	DirectInputエラー8: マウスの設定に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47f9b0	?	1	DirectInput Error 9: Failed to set up mouse. Restart computer and try again.	DirectInputエラー9: マウスの設定に失敗した。コンピューターを再起動して、もう一度試してください。
+0x47fa00	?	1	DirectDraw Error 1: Couldn't set cooperative level. Restart computer and try again.	DirectDrawエラー1: 協調レベルを設定できなかった。コンピューターを再起動して、もう一度試してください。
+0x47fa58	?	1	DirectDraw Error 2: Couldn't make primary surface. Restart computer and try again.	DirectDrawエラー2: プライマリサーフェスを作成できなかった。コンピューターを再起動して、もう一度試してください。
+0x47fab0	?	1	Avernum 4 requires the monitor to be set to High Color (16 bit). No other setting will work. For some reason, Geneforge was unable to set the monitor to 16 bit color.	アヴァーナム4は、モニターを高色（16ビット）に設定する必要がある。ほかの設定では動作しない。なぜかGeneforgeはモニターを16ビットカラーに設定できなかった。
+0x47fb58	?	1	DirectDraw Error 3: Couldn't make work surface. Restart computer and try again.	DirectDrawエラー3: 作業サーフェスを作成できなかった。コンピューターを再起動して、もう一度試してください。
+0x47fba8	?	1	Welcome to Avernum 4! These early sections are a tutorial, which will help you to get started. First, you need to learn how to move around. Click on a spot on the ground to walk there.	アヴァーナム4へようこそ！　この序盤はチュートリアルで、ゲームの始め方を覚えるのに役立ちます。まずは移動の仕方を覚えましょう。地面の場所をクリックすると、そこまで歩いて行きます。
+0x47fc68	sprintf	1	Now that battle is over, you apply first aid. (Restores %d health, %d energy.)	戦闘が終わったので、応急処置をした。（体力を%d、呪文力を%d回復した。）
+0x47fcb8	?	1	Autosave	オートセーブ
+0x47fcc4	message	1	Autosave: Done.	オートセーブ: 完了。
+0x47fcd8	sprintf	2	 waits.	は待機した。
+0x47fce0	message	2	You wait.	待機した。
+0x47fcf0	message	2	Cheat codes have been deactivated. To learn how to turn them back on,	チートコードは無効になっている。有効に戻す方法は、
+0x47fd38	message	1	go to Spiderweb Software's web site and look at the Geneforge tech	Spiderweb Softwareのウェブサイトを開き、Geneforgeの
+0x47fd7c	message	2	support page.	テクニカルサポートページを見ること。
+0x47fd8c	message	1	Can't Quicksave during combat.	戦闘中はクイックセーブできない。
+0x47fdb0	message	1	Quicksave: Nothing in quicksave slot. Press F3 to quicksave game.	クイックセーブ: クイックセーブ枠は空だ。F3キーを押すとゲームをクイックセーブする。
+0x47fdf4	message	2	Action canceled.	行動をキャンセルした。
+0x47fe08	message	1	Are you sure you want to end this character's turn? (Select again to end turn.)	このキャラクターのターンを終了しますか？（もう一度選択すると、ターンを終了する。）
+0x47fe58	short	1	  (You can turn off this warning in Game Options.)	  （この警告は、ゲームオプションで無効にできる。）
+0x47fe8c	message	1	Talk: You can't talk to charmed characters.	会話: 魅了されたキャラクターとは話せない。
+0x47feb8	message	1	Talk: Can't talk in combat mode. (To attack, press attack button	会話: 戦闘モード中は話せない。（攻撃するには、攻撃ボタンを押し
+0x47fefc	message	1	  and then select character again.)	  そのあとキャラクターをもう一度選択すること。）
+0x47ff20	message	1	Use Object: You don't have enough action points (Need 5).	物の使用: 行動ポイントが足りない（5必要）。
+0x47ff5c	message	1	Use Ability: Can only use this ability on friendly characters.	能力の使用: この能力は味方のキャラクターにしか使えない。
+0x47ffa0	message	1	Attack: You targeted a friendly character. Select it again to actually.	攻撃: 味方のキャラクターを対象にした。もう一度選択すると、実際に
+0x47ffe8	message	1	  cast the spell. This will make it angry.	  呪文を唱えてしまう。そうなると相手は怒る。
+0x480014	message	1	Attack: Your attacker can't see that target.	攻撃: 攻撃者からは対象が見えない。
+0x480044	message	1	Attack: That target is too far away.	攻撃: 対象が遠すぎる。
+0x48006c	message	1	Attack: You can't cast hostile spells on your party members.	攻撃: パーティーメンバーに敵対的な呪文は唱えられない。
+0x4800ac	message	1	Attack: You can't attack yourself.	攻撃: 自分自身を攻撃することはできない。
+0x4800d0	message	1	Attack: You can't attack your party members.	攻撃: パーティーメンバーを攻撃することはできない。
+0x480100	message	1	Select a friendly character to cast this spell on (or hit Escape to cancel).	この呪文をかける味方を選んでください（Escキーで取り消し）。
+0x480150	message	1	Select a foe to cast this spell on (or hit Escape to cancel).	この呪文をかける敵を選んでください（Escキーで取り消し）。
+0x480190	?	1	You see %s (Hostile, Health %d/%d)	%sが見える（敵対、体力 %d/%d）
+0x4801b4	?	1	You see %s (Neutral, Health %d/%d)	%sが見える（中立、体力 %d/%d）
+0x4801d8	?	1	You see %s (Friendly, Health %d/%d)	%sが見える（友好的、体力 %d/%d）
+0x4801fc	sprintf	1	 is active again.	は再び行動可能になった。
+0x480210	message	1	Combat has begun! (To end combat, press the Peace button to the right.)	戦闘開始！　（戦闘を終わらせるには、右の平和ボタンを押してください。）
+0x480258	message	1	End Combat: An enemy is visible. Combat will end at the end of this round.	戦闘終了: 敵が見えている。このラウンドの終わりに戦闘が終了する。
+0x4802a4	?	1	Ending Combat Mode	戦闘モードを終了
+0x4802b8	message	1	To end combat, all characters must be with 10 spaces of the first character.	戦闘を終わらせるには、全キャラクターが先頭キャラクターから10マス以内にいなければならない。
+0x480308	message	1	End Combat: No room to place party.	戦闘終了: パーティーを配置する場所がない。
+0x48032c	message	1	Combat: Some characters still have APs.	戦闘: 行動ポイントが残っているキャラクターがいる。
+0x480354	message	1	Starting new round.	新しいラウンドを開始する。
+0x480368	message	9	Error: Accessed out of range Stuff Done Flag.	
+0x480398	message	3	Error: Attempted to change out of range Stuff Done Flag.	
+0x4803d4	message	1	Error: Special item out of range.	
+0x4803fc	sprintf	1	You gain an item: 	アイテムを得た: 
+0x480410	sprintf	1	You lose an item: 	アイテムを失った: 
+0x480424	message	1	Error: Quest out of range.	
+0x480440	message	2	A new quest has been added to your list.	新しいクエストがリストに追加された。
+0x48046c	message	2	  (To see your quest list, press the Journal button.)	  （クエスト一覧を見るには、日誌ボタンを押してください。）
+0x4804a4	message	2	A quest has been completed.	クエストを完了した。
+0x4804c0	sprintf	1	 coins.	ゴールド。
+0x4804c8	sprintf	2	You get 	獲得: 
+0x4804d4	message	2	Error! Couldn't place party when entering zone.	
+0x480504	?	1	Clearing Data	データを消去中
+0x480514	?	1	Loading Zone Data	ゾーンデータを読み込み中
+0x480528	?	2	Setting Blockage Arrays	通行判定を設定中
+0x480540	?	1	Loading Dialogue Scripts	会話スクリプトを読み込み中
+0x48055c	?	1	Loading Zone Scripts	ゾーンスクリプトを読み込み中
+0x480574	?	1	Preparing Graphics	グラフィックを準備中
+0x480588	message	2	OH MY GOD!!! SAVING ITEMS OUT OF RANGE!!! REPORT!!!	
+0x4805c0	message	1	OH MY GOD!!! SAVING ITEMS OUT OF RANGE!!! REPORT numbers below!!!	
+0x480604	message	1	Error: Creature out of range spawned.	
+0x48062c	message	1	Error: Out of room for new creature.	
+0x4806c8	?	1	Right-click an item for description. Click the sun button by an item to use it.	アイテムを右クリックすると説明が表示されます。アイテムの横の太陽ボタンをクリックすると使用できます。
+0x480718	?	1	Click an item in the On Ground area to get it. Right-click an item for description.	地面エリアのアイテムをクリックすると拾えます。アイテムを右クリックすると説明が表示されます。
+0x480770	?	1	Click an item in the getting area (upper right) to get it. Right-click an item for description.	右上の取得エリアのアイテムをクリックすると拾えます。アイテムを右クリックすると説明が表示されます。
+0x4807d0	?	1	Click the coins icon by an item to sell it. Right-click an item for description.	アイテムの横のコインアイコンをクリックすると売却できます。アイテムを右クリックすると説明が表示されます。
+0x480824	?	1	Give Item: %s has no room for it.	アイテムを渡す: %sには空きがない。
+0x480848	0x4d2870	1	Click on On Ground area to drop item. Click on character picture to equip item. Click on Pack area to put item away.	地面エリアをクリックするとアイテムを置けます。キャラクターの絵をクリックするとアイテムを装備できます。持ち物エリアをクリックするとアイテムをしまえます。
+0x4808c0	0x4d2870	1	Click on Container area to drop item. Click on character picture to equip item. Click on Pack area to put item away.	容器エリアをクリックするとアイテムを置けます。キャラクターの絵をクリックするとアイテムを装備できます。持ち物エリアをクリックするとアイテムをしまえます。
+0x480938	0x4d2870	1	Click on Forge area to put item in forge. Click on character picture to equip item. Click on Pack area to put item away.	鍛冶場エリアをクリックするとアイテムを鍛冶場に入れられます。キャラクターの絵をクリックするとアイテムを装備できます。持ち物エリアをクリックするとアイテムをしまえます。
+0x4809b4	?	1	You put the item on the ground.	アイテムを地面に置いた。
+0x4809d4	sprintf	1	Can't drop any more items here.	これ以上ここにはアイテムを置けない。
+0x4809f4	sprintf	1	You put the item away.	アイテムをしまった。
+0x480a0c	sprintf	1	Can't put any more items in here.	これ以上ここにはアイテムを入れられない。
+0x480a30	?	1	%s (Not Yours. Click on it to steal it.)	%s（自分のものではない。クリックすると盗む。）
+0x480a5c	sprintf	1	Get Item: You don't have enough action points.	アイテム取得: 行動ポイントが足りない。
+0x480a8c	?	1	Get Item: Your crime was seen!	アイテム取得: 罪を目撃された！
+0x480aac	sprintf	1	Get Item: You stole the item without anyone seeing you.	アイテム取得: 誰にも見られずにアイテムを盗んだ。
+0x480ae8	sprintf	1	Use Item: To use an item in combat, the character must be active.	アイテム使用: 戦闘中にアイテムを使うには、キャラクターが行動可能でなければならない。
+0x480b2c	?	2	Use Item: You need 3 action points to use an item.	アイテム使用: アイテムを使うには行動ポイントが3必要。
+0x480b60	sprintf	1	You can't equip a two-handed weapon when you are using a shield.	盾を装備しているときは、両手武器を装備できない。
+0x480ba8	sprintf	1	You can't equip a shield when you are using a two-handed weapon.	両手武器を装備しているときは、盾を装備できない。
+0x480bec	sprintf	1	You can't equip this item. Not enough action points.	このアイテムは装備できない。行動ポイントが足りない。
+0x480c24	sprintf	1	You can't equip this item. Put it in your pack.	このアイテムは装備できない。持ち物に入れる必要がある。
+0x480c58	?	1	Only weapons or items with usable abilites can go into Quick Use slots.	クイック使用の枠に入れられるのは、武器か、使える能力を持つアイテムだけだ。
+0x480ca0	0x4d2870	1	This is the inventory screen, where you will pick items up off the ground and use them. Items like potions and wands, you can use. Items like weapons and armor, you can equip (i.e. wear or ready them).	ここは持ち物画面です。地面からアイテムを拾い、使用することができます。薬やワンドのようなアイテムは使用できます。武器や鎧のようなアイテムは、装備（身につける、または構えること）できます。
+0x480d70		1	Items you can pick up are in the Ground area to the upper right. Click on an item to pick it up. You can only pick up items you are close to. (If you don't see the weapons there, move closer to them and bring up this window again.)	拾えるアイテムは、右上の地面エリアにあります。アイテムをクリックすると拾えます。拾えるのは近くにあるアイテムだけです。（武器が見当たらない場合は、近づいてからこの画面をもう一度開いてください。）
+0x480e58		1	Once you pick up an item, click on your character's graphic to equip it. To have a different character get an item, click on his or her portrait (or type '1' - '4').	アイテムを拾ったら、キャラクターの絵をクリックすると装備できます。別のキャラクターにアイテムを取らせるには、そのキャラクターの肖像画をクリックします（または「1」〜「4」キーを押します）。
+0x480f00	0x4d2870	1	Press the check button to the lower right when you're done.	終わったら、右下のチェックボタンを押してください。
+0x480f3c	0x4d2870	1	You can trade and drop items on the Inventory screen.	持ち物画面では、アイテムの交換や、置くことができます。
+0x480f78	0x4d2870	1	To get rid of an item you don't want, click on it to pick it up. Then click on the Ground area to set the item on the ground.	いらないアイテムを処分するには、そのアイテムをクリックして拾い、次に地面エリアをクリックしてアイテムを地面に置いてください。
+0x480ff8	0x4d2870	1	To give an item to another character, click on it to pick it up and then click on that character's portrait.	別のキャラクターにアイテムを渡すには、アイテムをクリックして拾い、そのキャラクターの肖像画をクリックしてください。
+0x481068	0x4d2870	1	To switch to someone else's inventory, click on his or her portrait (or type '1' - '4').	別のキャラクターの持ち物に切り替えるには、そのキャラクターの肖像画をクリックしてください（または「1」〜「4」キーを押します）。
+0x4810c4	0x4d2870	1	Thank you for trying Avernum 4!	アヴァーナム4をお試しいただき、ありがとうございます！
+0x4810e8	0x4d2870	1	This is the demo version of the game, which only contains the first fifth or so of the world of Avernum. The full version of Avernum 4 is much, much bigger.	これはゲームの体験版で、アヴァーナムの世界の最初の5分の1ほどしか収録されていません。製品版のアヴァーナム4は、ずっと大きな内容になっています。
+0x481188	0x4d2870	1	By purchasing the full version, you can wander the cities of the Great Cave, experience the intrigue of the Abyss, and unmask the shadowy foe that is tormenting your homeland.	製品版を購入すると、大洞窟の町々を歩き回り、深淵の陰謀を体験し、故郷を苦しめる影の敵の正体を暴くことができます。
+0x481238	0x4d2870	1	It you want to experience the whole game, run Avernum 4 again and select How To Order on the title screen. Hope to see you again soon!	ゲーム全体を体験したい場合は、アヴァーナム4を起動し直して、タイトル画面で「購入方法」を選んでください。またお会いできるのを楽しみにしています！
+0x4812c0	sprintf	1	%s Inventory:	%sの持ち物:
+0x4812d0	label	1	On Ground:	地面：
+0x4812dc		1	You Find:	見つけたもの：
+0x4812ec	label	1	NY	
+0x4812f0	internal	13	%d	
+0x4812f4	draw	1	Quick Use Items:	クイック使用アイテム：
+0x481308	draw	1	Your Pack:	持ち物：
+0x481314	?	1	Coins: %d   Carrying %d lbs.  Encumbered at %d lbs.	所持金: %dゴールド   携帯重量 %dポンド。  %dポンドで荷重超過。
+0x481348	?	1	  Weight: 1 lb.	  重さ: 1ポンド。
+0x481358	?	1	  Weight: %d.%d lbs.	  重さ: %d.%dポンド。
+0x481370	?	1	Abilities:	特殊能力：
+0x48137c	?	1	None	なし
+0x481384	draw	1	How Many Items?	アイテムはいくつ？
+0x481394	internal	1	text	
+0x48139c	internal	1	%d %d %d	
+0x4813a8	internal	1	%d %d	
+0x4813b0	internal	1	ouchouchouch	
+0x4813c0	message	1	Mystical energy heals you.	神秘のエネルギーがあなたを癒した。
+0x4813dc	internal	1	leetbuffz	
+0x4813e8	message	1	A shield of mystical energy surrounds you.	神秘のエネルギーの盾があなたを包んだ。
+0x481414	internal	1	owmybrains	
+0x481420	message	1	A cloud of mystical energy frees your mind.	神秘のエネルギーの雲が、あなたの心を解き放った。
+0x48144c	internal	1	imdrained	
+0x481458	message	1	Mystical energy restores your power.	神秘のエネルギーが、あなたの力を回復させた。
+0x481480	internal	1	backtostart	
+0x48148c	?	1	Poof! You're back to the start.	ポン！　出発地点に戻された。
+0x4814ac	internal	1	pleaselikeme	
+0x4814bc	?	1	All areas have forgotten your crimes.	すべての地域が、あなたの罪を忘れた。
+0x4814e4	?	1	If you are in a town that is currently hostile, travel away	現在敵対している町にいる場合は、町を離れて
+0x481520	?	1	and come back later.	しばらくしてから戻ってくること。
+0x481538	internal	1	iwanttobestronger	
+0x48154c	internal	1	location	
+0x481558	message	1	Your lead character's current location is:	先頭キャラクターの現在位置は次のとおり：
+0x481588	?	1	  X = %d, Y = %d (Section X = %d, Y = %d, Loc in section X = %d, Y = %d)	  X = %d、Y = %d（区画 X = %d、Y = %d、区画内の位置 X = %d、Y = %d）
+0x4815d4	internal	1	giveasnack	
+0x4815e0	internal	1	showmeall	
+0x4815ec	internal	1	dontshowmeall	
+0x4815fc	internal	1	nomorecheats	
+0x481610	internal	1	go to Spiderweb Software's web site and look at the Avernum 4 tech	
+0x481654	internal	1	forgiveme	
+0x481660	?	1	All of your lesser crimes have been forgotten and the towns won't	軽微な罪はすべて忘れられ、町はあなたを
+0x4816a8	?	1	  attack you. (Some major crimes, like stealing artifacts or killing	  攻撃しなくなる。（遺物の窃盗や、重要人物の殺害といった大罪は、
+0x4816f0	?	1	  major characters, can't be forgotten).	  忘れられない）。
+0x48171c		1	New creation name:	新規作成の名前：
+0x481730	sprintf	1	New character name:	新しいキャラクターの名前：
+0x481744	sprintf	1	What do you want?	何をしますか？
+0x481758	sprintf	1	Pick up how many?	いくつ拾いますか？
+0x48176c	sprintf	1	Sell how many?	いくつ売却しますか？
+0x48177c	?	1	Sound: Off	サウンド: オフ
+0x481788	?	1	Sound: Quiet	サウンド: 小
+0x481798	?	1	Sound: Normal	サウンド: 普通
+0x4817a8	?	1	Difficulty: Easy	難易度: カジュアル
+0x4817bc	?	1	Difficulty: Normal	難易度: ノーマル
+0x4817d0	?	1	Difficulty: Tricky	難易度: ハード
+0x4817e4	?	1	Difficulty: Torment	難易度: トーメント
+0x4817f8	?	1	Resolution at Startup:	起動時の解像度：
+0x481810	?	1	Ask at Start	起動時に確認
+0x481820	?	1	Change Resolution	解像度を変更
+0x481834	?	1	Don't Change Resolution	解像度は変更しない
+0x48184c	?	1	Background Sounds: On	環境音: オン
+0x481864	?	1	Background Sounds: Off	環境音: オフ
+0x48187c	?	1	Scrolling Speed: Normal	スクロール速度: 普通
+0x481894	?	1	Scrolling Speed: Fast	スクロール速度: 速い
+0x4818ac	?	1	Scrolling Speed: Slow	スクロール速度: 遅い
+0x4818c4	?	1	Arrow Keys: Move Party	矢印キー: パーティーを移動
+0x4818dc	?	1	Arrow Keys: Scroll Terrain View	矢印キー: 地形表示をスクロール
+0x4818fc	?	1	Auto Scroll Terrain View While Walk: Off	歩行中に地形表示を自動スクロール: オフ
+0x481928	?	1	Auto Scroll Terrain View While Walk: On	歩行中に地形表示を自動スクロール: オン
+0x481950	?	1	Warning Before Pause In Combat: On	戦闘中の一時停止前に警告: オン
+0x481974	?	1	Warning Before Pause In Combat: Off	戦闘中の一時停止前に警告: オフ
+0x481998	?	1	Geneforge  	
+0x4819a4	?	1	Design, Programming:	デザイン・プログラミング：
+0x4819bc	?	1	  Jeff Vogel	
+0x4819cc	draw,label	2	Mage Spells	魔術
+0x4819d8	draw,label	2	Priest Spells	祈祷
+0x4819e8	sprintf	1	%s: Skill - %d, Energy - %d 	%s: 技能 - %d、呪文力 - %d 
+0x481a08	?	1	Move cursor onto spell button for description.	呪文ボタンにカーソルを合わせると説明が表示されます。
+0x481a38	?	1	%s (Costs %d Energy)	%s（消費呪文力 %d）
+0x481a50	?	1	Can't Cast: Requires %d energy.	呪文を唱えられない: 呪文力が%d必要。
+0x481a70	?	1	Can't Cast: Requires spell skill of %d.	呪文を唱えられない: 呪文技能が%d必要。
+0x481a98	?	1	Move cursor onto a class for description.	職業にカーソルを合わせると説明が表示されます。
+0x481ac4	message	2	Save Game: Drop your carried item first.	ゲームをセーブ: まず手に持っているアイテムを置くこと。
+0x481af0	message	1	Save Game: You can't save during combat.	ゲームをセーブ: 戦闘中はセーブできない。
+0x481b1c	sprintf	2	Saved Game	ゲームをセーブしました
+0x481b28	?	2	Loading Scenario Data	シナリオデータを読み込み中
+0x481b40	?	1	Loading File Data	ファイルデータを読み込み中
+0x481b54	message	1	Load: Game loaded.	ロード: ゲームをロードした。
+0x481b68	?	1	Setting Up Game	ゲームを準備中
+0x481b78	message	1	This copy of the game isn't registered, and you just loaded a saved game	このゲームは未登録なので、たった今読み込んだセーブデータは
+0x481bc4	message	1	past the shareware barrier. You've been returned to the start.	体験版の制限を超えた場所のものだったため、出発地点に戻された。
+0x481c04	internal	4	%s	
+0x481c08	internal	2	  %s	
+0x481c10	internal	1	  %d/%d/%d, %d:0%d	
+0x481c24	internal	1	  %d/%d/%d, %d:%d	
+0x481c38	sprintf	1	  Empty	  （空き）
+0x481c40	sprintf	1	  Empty Quicksave	  クイックセーブ（空き）
+0x481c54	sprintf	1	  Empty Autosave	  オートセーブ（空き）
+0x481c68	internal	1	    %s, %d/%d, %d:0%d	
+0x481c80	internal	1	    %s, %d/%d, %d:%d	
+0x481c98	?	1	Click on a statistic name for a description. Press the Plus and Minus buttons to spend skill points.	統計項目の名前をクリックすると説明が表示されます。プラスとマイナスのボタンで技能ポイントを割り振れます。
+0x481d00	?	1	Change Spells/Traits	呪文・特性を変更
+0x481d18	?	1	See Spells/Traits	呪文・特性を見る
+0x481d2c	?	1	Change Party Order:	パーティーの順番を変更：
+0x481d40	short	1	Up	上へ
+0x481d44	short	1	Down	下へ
+0x481d4c	?	1	Appearance:	外見：
+0x481d58	?	2	Level: %d   Skill Points: %d	レベル: %d   技能ポイント: %d
+0x481d78	?	1	Experience: %d  Next: %d	経験値: %d  次: %d
+0x481d94	?	2	Experience: %d  Next Level: %d	経験値: %d  次のレベル: %d
+0x481db4	?	2	Health: %d/%d 	体力: %d/%d 
+0x481dc4	?	2	Spell Energy: %d/%d   	呪文力: %d/%d   
+0x481ddc	?	1	Armor: %d	鎧: %d
+0x481de8	?	1	Resistances:	抵抗：
+0x481df8	?	1	   Fire: %%%d	   火: %d%%
+0x481e08	?	1	   Cold: %%%d	   冷気: %d%%
+0x481e18	?	1	   Energy: %%%d	   エネルギー: %d%%
+0x481e28	?	1	   Stun: %%%d	   気絶: %d%%
+0x481e38	?	1	   Mental: %%%d	   精神: %d%%
+0x481e48	?	1	   Poison: %%%d	   毒: %d%%
+0x481e58	?	1	   Acid: %%%d	   酸: %d%%
+0x481e68	?	1	Combat Skills:	戦闘技能：
+0x481e78	?	1	Magic Skills:	魔法技能：
+0x481e88	?	1	General Skills:	一般技能：
+0x481e98	?	1	Special Skills:	特殊技能：
+0x481ea8	?	1	  None yet.	  まだない。
+0x481eb8	?	1	Click on a skill name for a description. |You have some skill points you can spend now (or later) to customize your character.	技能名をクリックすると説明が表示されます。|技能ポイントがあります。今すぐでも後からでも、それを使ってキャラクターを育成できます。
+0x481f38	?	1	Click on a skill name for a description.	技能名をクリックすると説明が表示されます。
+0x481f64	internal	1	 %d	
+0x481f68	?	1	Cost %d	コスト %d
+0x481f70	?	2	Click on a spell or trait to see a description. Click on the gem to the right of a trait to add/remove it.	呪文または特性をクリックすると説明が表示されます。特性の右にある宝石をクリックすると、その特性を追加・削除できます。
+0x481fdc	?	1	Click on a spell or trait to see a description.	呪文または特性をクリックすると説明が表示されます。
+0x48200c	?	1	You can't give a character more than 2 traits.	1人のキャラクターに付けられる特性は2つまでです。
+0x48203c	?	1	Mage Spells:	魔術：
+0x48204c	?	1	Priest Spells:	祈祷：
+0x48205c	?	1	Advantages:	長所：
+0x482068	?	1	Disadvantages:	短所：
+0x482078	?	1	Experience adjustment: %d%%	経験値補正: %d%%
+0x482094	internal	1	%d 	
+0x482098	?	1	Talking Error: Dialogue script broken or absent.	
+0x4820cc	message	6	Tried to run zone script out of range.	
+0x4820f4	sprintf	1	Recorded in %s:	%sの記録：
+0x482104	0x40cf00,draw,sprintf	1	Special Encounter	特別な遭遇
+0x482118	internal	1	%d. %s	
+0x482120	sprintf	1	Record   You have %d coins.	記録   所持金：%dゴールド
+0x48213c	?	4	No quests are currently available at this Help Wanted board.	この依頼掲示板には、現在利用できるクエストがありません。
+0x482180	?	4	This Help Wanted board can tell you about available jobs. Press the OK button by a mission to accept it.	この依頼掲示板では、受けられる仕事を確認できます。任務の横のOKボタンを押すと、引き受けられます。
+0x4821f0	sprintf	4	Select the destination you want to teleport to. You can teleport to any pylon you have used. Select the OK button to just stay here.	転送先を選んでください。これまでに使用した転送柱のどれにでも転送できます。ここに留まる場合は、「OK」ボタンを選んでください。
+0x482278	internal	1	%s (%d)	
+0x482280	?	1	You have accepted this job. You can review its details by consulting your Quest List.	この仕事を引き受けた。詳細はクエスト一覧で確認できる。
+0x4822d8	short	1	Journal	日誌
+0x4822e0	button	1	Special Items	特殊アイテム
+0x4822f0	button	1	Current Quests	進行中のクエスト
+0x482300	draw	1	[Empty]	（空き）
+0x482308	short	1	Delete	削除
+0x482310	?	1	You step up to the portal and begin to concentrate. You focus on different destinations, trying to connect to the pylons in different parts of Avernum.	転移門の前に立ち、集中を始める。アヴァーナムの各地にある転送柱とつなげるため、さまざまな行き先に意識を向ける。
+0x4823a8	message	1	Shop Error: Shop out of range called.	
+0x4823d0	message	1	Shop Error: Shop cost adjustment out of range.	
+0x482400	?	1	Press the Buy button by an item/spell to purchase it. Click an item name for a description.	アイテムや呪文の横にある購入ボタンを押すと購入できます。アイテム名をクリックすると説明が表示されます。
+0x48245c	?	1	You've already trained twice in this.	これはすでに2回伸ばしている。
+0x482488	?	1	Your Mage Spells skill isn't high enough to |learn this spell. Select another character.	魔術技能が足りないため、|この呪文は習得できない。別のキャラクターを選んでください。
+0x4824e8	?	1	Your Priest Spells skill isn't high enough to |learn this spell. Select another character.	祈祷技能が足りないため、|この呪文は習得できない。別のキャラクターを選んでください。
+0x482544	?	1	You gain a new skill.	新しい技能を習得した。
+0x48255c	?	1	You improve a skill.	技能が伸びた。
+0x482574	0x47d190	1	You buy an item.	アイテムを購入しました。
+0x482588		1	Not enough room in pack.	持ち物に空きがありません。
+0x4825a4	sprintf	1	Costs %d.	価格は%dゴールド。
+0x4825b0	sprintf	1	Learn %s	%sを習得する
+0x4825bc	sprintf	1	Improve %s	%sを伸ばす
+0x4825c8	sprintf	1	  Costs %d.	  価格は%dゴールド。
+0x4825d4	?	1	  (Too high to train.)	  （高すぎて伸ばせない。）
+0x4825ec	?	1	Prices here are %s	ここの価格は%s
+0x482600	?	1	Your coins:	所持金：
+0x48260c	?	1	Sell: %s	売却: %s
+0x482618	draw	1	What Spell In This Slot?	このスロットに入れる呪文は？
+0x482634	draw	1	Cast What Spell?	どの呪文を唱えますか？
+0x482648	?	1	Click on a spell name to select it and get a description.	呪文名をクリックすると選択され、説明が表示されます。
+0x482688	?	1	Select the spell to be cast when this button is pressed. To change it later, right-click the button. Spells you know but can't cast are greyed out.	このボタンを押したときに唱える呪文を選んでください。後で変えるには、ボタンを右クリックします。唱えられない呪文は、知っていても灰色で表示されます。
+0x482720	?	1	Select the spell you want to cast. Press the Check button to cast it. Spells you know but can't cast are greyed out.	唱えたい呪文を選んでください。チェックボタンを押すと唱えます。唱えられない呪文は、知っていても灰色で表示されます。
+0x482798	?	1	The crossed weapons mark your group's location.	交差した武器のマークが、一行の位置を示します。
+0x4827c8	?	4	Creating a new campaign. Please be patient.	新しいキャンペーンを作成中。しばらくお待ちください。
+0x4827f4	?	1	Loading Campaign Data	キャンペーンデータを読み込み中
+0x48280c	?	1	Initializing Character	キャラクターを初期化中
+0x482824	?	1	Loading First Area	最初のエリアを読み込み中
+0x482838	?	1	When you register Avernum 4, give the registration code (the number above). You will be given a key (a 4 or 5 digit number). Type the number in the text area below to register this copy.	アヴァーナム4を登録するときは、上に表示された登録コード（数字）を伝えてください。4〜5桁の数字のキーが発行されます。下の入力欄にその数字を入力して、このゲームを登録してください。
+0x4828f4	?	1	Registration code: %d	登録コード: %d
+0x482910	?	1	To find out how to register, click on the How To Order button on the title screen. Until you register, you can play the first fifth of Avernum 4.	登録方法は、タイトル画面の「購入方法」ボタンをクリックすると確認できます。登録するまでは、アヴァーナム4の最初の5分の1ほどを遊べます。
+0x4829a4	message	1	Edit Party: You can't edit your party during combat.	パーティーの編集: 戦闘中はパーティーを編集できない。
+0x4829e0	0x4d2870	1	Welcome to Avernum 4! Avernum 4 is a fantasy role-playing game. You will create a band of adventurers and explore the strange, dangerous subterranean world of Avernum.	アヴァーナム4へようこそ！　アヴァーナム4はファンタジーRPGです。冒険者の一行を作り、アヴァーナムの奇妙で危険な地下世界を探検します。
+0x482a88	?	1	You will wander the underworld, meet people, go on quests, and fight a conspiracy to destroy your nation. Your world will come under devastating attack, and, through good (or bad) luck, you are the one who has the chance to set things right.	地下世界を旅し、人々と出会い、クエストをこなし、国を滅ぼそうとする陰謀と戦うことになります。世界は壊滅的な攻撃にさらされ、幸か不幸か、事態を正す機会を得たのはあなたです。
+0x482b80	?	1	To start, you need to choose what sorts of adventurers you want to start with and what sets of skills you want them to have.	まず、どのような冒険者で始めるか、そして彼らにどの技能セットを持たせるかを選んでください。
+0x482c00	?	1	If you are new to games like this, you should stick with the basic options and learn how to train your characters later. For now, choose the sorts of characters you want, set the game difficulty, and press the check button at the bottom.	このようなゲームが初めてなら、基本的な選択肢のまま始めて、キャラクターの育成は後から覚えるとよいでしょう。今は、好みのキャラクターを選び、ゲームの難易度を設定して、下のチェックボタンを押してください。
+0x482cf0	draw	1	Human	人間
+0x482cf8	?	1	Nephil	ネフィル
+0x482d00	?	1	Slithzerikai	スリスザリカイ
+0x482d10	?	1	Click on pictures to left to change icon, portrait, and race. Click on difficulty level to change it.	左の絵をクリックすると、アイコン・肖像画・種族を変更できます。難易度をクリックすると変更できます。
+0x482d78	?	1	Select Edit Statistics to change starting statistics and special traits. Select New Character Type to change the base abilities.	「能力値の編集」で、初期の能力値と特殊な特性を変更できます。「職業の変更」で、基本の能力を変更できます。
+0x482dfc	?	1	Click on difficulty level to change it.	難易度をクリックすると変更できます。
+0x482e28	?	1	After the game begins, you can use the Edit Party button to delete and create characters. Click a character's graphic to change it.	ゲームが始まったら、「パーティー編集」ボタンでキャラクターを削除・作成できます。キャラクターの絵をクリックすると、変更できます。
+0x482eac	?	1	You can delete unwanted characters and create new ones.	不要なキャラクターは削除し、新しく作成することもできます。
+0x482ee4	internal	1	  %s %s	
+0x482eec	sprintf	1	  Dead %s	  死亡：%s
+0x482ef8	?	1	No special |species |traits	特別な|種族|特性なし
+0x482f14	?	1	-10%% xp|Missile bonus|More nimble	経験値-10%%|飛び道具ボーナス|より機敏
+0x482f38	?	1	-20%% xp|Pole weapons|Resist fire	経験値-20%%|長柄武器|火に強い
+0x482f5c	draw	1	(Empty Slot)	（空き枠）
+0x482f6c	internal	1	 %s_	
+0x482f74	internal	1	 %s	
+0x482f78	?	1	%s+Data+	
+0x482f84	internal	1	s	
+0x482f8c	internal,sprintf	1	%s%sSpiderweb Software	
+0x482fa4	internal	1	%s%sSpiderweb Software%sAvernum 4 Saved Games	
+0x482fd4	internal	1	%s%sSpiderweb Software%sAvernum 4 Saved Games%sSave%d	
+0x48300c	internal	2	%sAv4ScenData.dat	
+0x483020	internal	10	rb	
+0x483024	?	2	Couldn't open campaign file.	キャンペーンファイルを開けなかった。
+0x483044	?	1	Couldn't read from campaign file.	キャンペーンファイルを読み込めなかった。
+0x483068	?	1	Load zone error: Couldn't read zone.	
+0x483090	?	1	Quicksave (F4 to load)	クイックセーブ（F4でロード）
+0x4830a8	?	1	Quicksave: Done. (Press F4 to load Quicksave game.)	クイックセーブ: 完了。（F4キーを押すと、クイックセーブしたゲームをロードできる。）
+0x4830dc	internal	3	%s%sSpiderweb Software%sAvernum 4 Saved Games%sSave%d%sheader	
+0x48311c	internal,sprintf	3	%sSave%dheader	
+0x48312c	internal	5	wb	
+0x483130	?	1	Save Error: Couldn't create a file. Try saving in a different slot. Error 3.	セーブエラー: ファイルを作成できなかった。別の枠に保存してみてください。エラー3。
+0x483180	message	1	Save Error: Couldn't write to file. Try saving in a different slot. Error 1.	セーブエラー: ファイルに書き込めなかった。別の枠に保存してみてください。エラー1。
+0x4831d0	internal	2	%s%sSpiderweb Software%sAvernum 4 Saved Games%sSave%d%sdata	
+0x48320c	internal,sprintf	2	%sSave%ddata	
+0x483220	?	1	Save Error: Couldn't create a file. Try saving in a different slot. Error 4.	セーブエラー: ファイルを作成できなかった。別の枠に保存してみてください。エラー4。
+0x483270	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 5.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー5。
+0x483308	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 6.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー6。
+0x4833a0	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 7.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー7。
+0x483438	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 8.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー8。
+0x4834d0	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 9.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー9。
+0x483568	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 10.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー10。
+0x483600	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 11.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー11。
+0x483698	?	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 12.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー12。
+0x483730	message	2	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 13.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー13。
+0x4837c8	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 14.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー14。
+0x483860	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 15.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー15。
+0x4838f8	?	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 16.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー16。
+0x483990	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 17.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー17。
+0x483a28	internal	2	%s%sSpiderweb Software%sAvernum 4 Saved Games%sSave%d%sitems	
+0x483a68	internal,sprintf	2	%sSave%ditems	
+0x483a78	?	1	Save Error: Couldn't create a file. Try saving in a different slot. Error 19.	セーブエラー: ファイルを作成できなかった。別の枠に保存してみてください。エラー19。
+0x483ac8	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 41.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー41。
+0x483b60	internal	2	%s%sSpiderweb Software%sAvernum 4 Saved Games%sSave%d%sjournal	
+0x483ba0	internal,sprintf	2	%sSave%djournal	
+0x483bb0	?	1	Save Error: Couldn't create a file. Try saving in a different slot. Error 42.	セーブエラー: ファイルを作成できなかった。別の枠に保存してみてください。エラー42。
+0x483c00	message	1	Save Error: Couldn't save some data. Try saving in a different slot. If that doesn't work, there may not be enough space on the hard drive. Error 51.	セーブエラー: 一部のデータを保存できなかった。別の枠に保存してみてください。それでもだめな場合は、ハードディスクの空き容量が足りない可能性があります。エラー51。
+0x483c98	message	1	Save: Game saved.	セーブ: ゲームを保存した。
+0x483cb0	?	1	Load Error: Couldn't open data file. This saved game is damaged. Error 20.	ロードエラー: データファイルを開けなかった。このセーブデータは壊れている。エラー20。
+0x483d00	message	1	Load Error: Couldn't load from file. This saved game is damaged. Error 21.	ロードエラー: ファイルから読み込めなかった。このセーブデータは壊れている。エラー21。
+0x483d50	?	1	Load Error: Couldn't open data file. This saved game is damaged. Error 23.	ロードエラー: データファイルを開けなかった。このセーブデータは壊れている。エラー23。
+0x483da0	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 25.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー25。
+0x483df0	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 26.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー26。
+0x483e40	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 27.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー27。
+0x483e90	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 28.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー28。
+0x483ee0	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 29.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー29。
+0x483f30	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 30.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー30。
+0x483f80	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 31.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー31。
+0x483fd0	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 32.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー32。
+0x484020	message	2	Load Error: Couldn't load some data. This saved game is damaged. Error 33.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー33。
+0x484070	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 34.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー34。
+0x4840c0	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 35.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー35。
+0x484110	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 36.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー36。
+0x484160	?	1	Load Error: Couldn't load some data. This saved game is damaged. Error 37.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー37。
+0x4841b0	?	1	Load Error: Couldn't open data file. This saved game is damaged. Error 40.	ロードエラー: データファイルを開けなかった。このセーブデータは壊れている。エラー40。
+0x484200	message	1	Load Error: Couldn't load some data. This saved game is damaged. Error 41.	ロードエラー: 一部のデータを読み込めなかった。このセーブデータは壊れている。エラー41。
+0x484250	internal	2	%s%sSpiderweb Software%sAvernum 4 Saved Games%sAvernum4Settings.dat	
+0x484294	internal	2	%sAvernum4Settings.dat	
+0x4842ac	internal	1	#%d	
+0x4842bc	?	2	doink:	
+0x4842c4	internal	1	%sG%d.bmp	
+0x4842d0	sprintf	2	Error: Loading duplicate pict, graphic 	
+0x4842f8	message	1	Error: Point given is out of bounds.	
+0x484320	sprintf	2	Num = %d	
+0x484330	message	1	Error: Tried to change object to new object type with different size.	
+0x484378	message	2	Error: Non-existant object animation called.	
+0x4843a8	?	1	Missile misses. (%0)	飛び道具は外れた。（%0）
+0x4843c4	sprintf	1	Missile misses. (%	飛び道具は外れた。（%
+0x4843d8	sprintf	2	 parries the attack. (%	は攻撃を受け流した。（%
+0x4843f4	message	2	Error: Tried to make sfx out of range.	
+0x48441c	sprintf	2	X	
+0x484420	?	1	%s (%sValue: %d)	%s（%s価値: %d）
+0x484434	?	1	%s (Protection: %d%%. Value: %d)	%s（防護: %d%%。価値: %d）
+0x484458	?	1	%s (Value: %d)	%s（価値: %d）
+0x484468	?	1	This is a cloak or robe. It is worn over your armor and provides extra protection from enemy blows.	これは外套またはローブです。鎧の上から身につけ、敵の攻撃からの防護を高めてくれます。
+0x4844d0	?	1	This is a piece of chest armor. It provides solid protection from enemy blows, but may slow you down.	これは胴鎧です。敵の攻撃を確実に防ぎますが、動きが鈍くなることがあります。
+0x484538	?	1	This is a weapon. It is wielded in your right hand and used to damage your foes.	これは武器です。右手に持ち、敵にダメージを与えるために使います。
+0x484590	?	1	This is a shield. It is wielded in your left hand and provides good protection from enemy blows.	これは盾です。左手に持ち、敵の攻撃を防いでくれます。
+0x4845f8	?	1	This is a ring. It is worn on one of your fingers and might provide magical assistance. You can only use one magic ring at any one time.	これは指輪です。指に付けると、魔法の補助をしてくれることがあります。魔法の指輪は、同時に1つしか使えません。
+0x484688	?	1	This is a sturdy pair of boots. They are worn on your feet and provide a little protection from enemy blows.	これは頑丈なブーツです。足に履くことで、敵の攻撃からわずかに身を守れます。
+0x4846f8	?	1	This is a belt or girdle. It can provide a small amount of protection from damage.	これはベルトまたは帯です。ダメージを少しだけ軽減します。
+0x484750	?	1	This item is worn on your hands. It can provide a small amount of protection from damage.	このアイテムは手に身につけます。ダメージを少しだけ軽減できます。
+0x4847b0	?	1	This is a small object. It can be used, and might do something useful.	これは小さな品物です。使うと、何か役立つ効果があるかもしれません。
+0x4847f8	?	1	This is ammunition. When the correct sort of weapon runs out of ammo, this will automatically be used to recharge it.	これは弾薬です。対応する武器の弾が切れると、自動的にこれを使って補充されます。
+0x484870	?	1	This is a small object. While someone might pay you for it, it has no useful abilities of its own.	これは小さな品物です。買い取ってくれる人がいるかもしれませんが、それ自体に役立つ能力はありません。
+0x4848d4	?	1	This is a missile weapon. It can be flung at your foes.	これは飛び道具です。敵に向かって投げたり放ったりできます。
+0x484910	?	1	This item does something unusual when used. It will disappear after being used several times.	このアイテムは、使うと普通でない効果を発揮します。何度か使うと消えてしまいます。
+0x484970	?	1	Necklaces are generally worn around the neck. Some have unusual magical properties.	首飾りは通常、首に身につけます。中には不思議な魔法の力を持つものもあります。
+0x4849c8	?	1	This item is meant to be worn on your legs, providing some protection and preserving your modesty.	このアイテムは脚に身につけるものです。ある程度の防護になるほか、肌を隠してくれます。
+0x484a30	?	1	This is a two-handed weapon. It is wielded in both hands and used to damage your foes. You can't use a shield when using this weapon.	これは両手武器です。両手で持って、敵にダメージを与えます。この武器を使っているときは、盾を使えません。
+0x484ab8	?	1	This is a bow. It is made of polished wood, brought down from the surface and strung with a length of lizard sinew. It can be used to damage foes from a distance.	これは弓です。地上から持ち込まれた磨かれた木材に、トカゲの腱で作った弦を張ってあります。遠くから敵にダメージを与えられます。
+0x484b60	?	1	This is a helmet, which is meant to protect your head from enemy blows. Some helmets are made of leather, others of metal, and some have magical properties.	これは兜です。敵の攻撃から頭を守るためのものです。革製のもの、金属製のもの、魔法の力を持つものがあります。
+0x484c00	sprintf	1	Armor: +%d%%	鎧: +%d%%
+0x484c10	?	1	Armor: -%d%%	鎧: -%d%%
+0x484c20	?	1	%s - Base Damage %d. 	%s - 基本ダメージ %d。 
+0x484c38	?	1	%s - Base Damage %d-%d. 	%s - 基本ダメージ %d〜%d。 
+0x484c54	?	2	%s - Effect %d. 	%s - 効果 %d。 
+0x484c68	?	1	%s - Effect %d-%d. 	%s - 効果 %d〜%d。 
+0x484c7c	internal	1	%s. 	
+0x484c84	internal	2	-%d	
+0x484c88	internal	3	+%d	
+0x484c8c	sprintf	1	%s to action points.	行動ポイント%s。
+0x484ca4	?	1	%s%% to hit chance. (Bulky item.)	命中率%s%%。（かさばるアイテム。）
+0x484cc8	sprintf	1	%s%% to hit chance.	命中率%s%%。
+0x484cdc	?	1	%s levels damage in combat.	戦闘中のダメージを%sレベル変える。
+0x484cf8	?	1	%s damage to attacker.	攻撃者に%sのダメージ。
+0x484d10	?	1	%s%% Protection From Weapons.	武器からの防護 %s%%。
+0x484d30	sprintf	1	%s%% to Hostile Effect Resistance.	敵対効果への抵抗%s%%。
+0x484d54	sprintf	1	%s%% to Energy Resistance.	エネルギーへの抵抗%s%%。
+0x484d70	sprintf	1	%s%% to Fire Resistance.	火への抵抗%s%%。
+0x484d8c	sprintf	1	%s%% to Poison Resistance.	毒への抵抗%s%%。
+0x484da8	sprintf	1	%s%% to Acid Resistance.	酸への抵抗%s%%。
+0x484dc4	sprintf	1	%s%% to Mind Effect Resistance.	精神効果への抵抗%s%%。
+0x484de4	?	1	%s%% to Stun Resistance.	気絶への抵抗%s%%。
+0x484e00	sprintf	1	%s%% to Cold Resistance.	冷気への抵抗%s%%。
+0x484e1c	?	1	%s to Health Regen.	体力回復%s。
+0x484e30	?	1	%s to Energy Regen.	呪文力回復%s。
+0x484e44	internal	1	Demonbane.	
+0x484e50	sprintf	1	%s to %s.	%sから%sへ。
+0x484e5c	sprintf	2	 by 	 による 
+0x484e64	concat3,sprintf	2	 increases 	の能力上昇: 
+0x484e70	concat3	1	 decreases 	の能力低下: 
+0x484e80	concat3	1	 is now level 	はレベル
+0x484e90	message	1	  (You now have 5 more skill points to spend.)	  （使える技能ポイントが5増えた。）
+0x484ec0	message	6	Error: number_of_ability_being_used not set.	
+0x484ef0	message	1	Movement: Can't move more than 30 spaces from rest of party.	移動: 残りのパーティーから30マス以上離れて移動することはできない。
+0x484f30	message	1	Char tried to walk off world.	
+0x484f50	sprintf	1	Act = %d	
+0x484f5c	sprintf	1	Type = %d	
+0x484f68	sprintf	1	Targ = %d	
+0x484f74	sprintf	1	 flees in terror!	は恐怖に駆られて逃げ出した！
+0x484f88	sprintf	1	 is paralyzed with fear.	は恐怖で身がすくんだ。
+0x484fa4	message	1	Attack: Target is too far away.	攻撃: 対象が遠すぎる。
+0x484fc4	message	1	Attack: Your target is out of range.	攻撃: 対象が攻撃範囲外だ。
+0x484fec	message	1	Attack: You can't shoot that target from there.	攻撃: その位置からは、その対象を射撃できない。
+0x48501c	message	1	Attack: No path from you to your foe.	攻撃: 敵までの経路がない。
+0x485044	?	1	 slows down 	は動きが鈍った 
+0x485054	?	1	: Target out of range.	：対象が範囲外にある。
+0x48506c	?	1	: No sight line to target.	：対象との間に見通しがない。
+0x485088	?	1	: Can't use this ability in Combat mode.	：戦闘モードではこの能力を使えない。
+0x4850b4	sprintf	1	: Select target (or hit Escape to cancel).	：対象を選んでください（Escapeキーで取り消し）。
+0x4850e0	?	1	: Select space on ground (or hit Escape to cancel).	：地面のマスを選んでください（Escapeキーで取り消し）。
+0x485114	sprintf	2	: Select friendly character (or hit Escape to cancel).	：味方を選んでください（Escapeキーで取り消し）。
+0x485150	message	1	Attack: Not enough action points to attack/use ability. Turn ends.	攻撃: 攻撃・能力の使用に必要な行動ポイントが足りない。ターンを終了する。
+0x485194	message	1	Launch Spell: Caster can't see that space.	呪文発動: 術者からはそのマスが見えない。
+0x4851c0	message	1	Launch Spell: That space is out of range.	呪文発動: そのマスは範囲外だ。
+0x4851ec	sprintf	1	 misses. (%	は外した。（%
+0x4851f8	sprintf	1	 ripostes the attack. (%	は攻撃を受け流した。（%
+0x485214	?	1	 lands a lethal blow.	は致命の一撃を決めた。
+0x48522c	sprintf	1	 drips poison into the wound.	は傷口に毒が滴り込んだ。
+0x48524c	sprintf	1	 drips searing venom into the wound.	は傷口に焼けつく毒が滴り込んだ。
+0x485274	short	1	 with terror.	を恐怖で圧倒した。
+0x485284	sprintf	1	 overwhelms 	は
+0x485294	sprintf	1	 clouds the mind of 	の精神攪乱→
+0x4852ac	?	1	 with ice.	を氷で覆った。
+0x4852b8	sprintf	1	 covers 	は
+0x4852c4	sprintf	1	 makes time slow down for 	の時間減速→
+0x4852e0	sprintf	1	 feels confused after the blow lands.	は一撃を受けて混乱した。
+0x485308	sprintf	1	 feels sluggish after the blow lands.	は一撃を受けて動きが鈍くなった。
+0x485330	sprintf	1	 is sprayed by acid from the wound.	は傷口から酸を浴びた。
+0x485354	sprintf	1	 is sprayed by venom from the wound.	は傷口から毒液を浴びた。
+0x48537c	sprintf	1	 loses control after touching this foe.	はこの敵に触れて制御を失った。
+0x4853a4	?	1	 is filled with terror after striking the blow.	は一撃を加えた後、恐怖に満たされた。
+0x4853d4	?	1	 is covered with a spray of ice.	は氷の飛沫を浴びた。
+0x4853f8	sprintf	1	 is wounded by spines.	はトゲで傷ついた。
+0x485410	?	1	  High speed gives a second swing!	  高速の動きで二撃目を繰り出した！
+0x485434	sprintf	1	 Second attack misses. (%	の二撃目は外れた。（%
+0x485450	concat3	1	 is healed for 	の回復: 
+0x485460	concat3	2	 energy.	回復した。
+0x48546c	concat3	2	 gains 	の呪文力が
+0x485474	sprintf	1	 is cured.	は治った。
+0x485480	message	1	Error: Status type out of range.	
+0x4854a4	?	1	 is already covered with enduring armor.	は既に持久の鎧で覆われている。
+0x4854d0	?	1	 resists the charm spell.	は魅了の呪文に抵抗した。
+0x4854ec	?	1	 resists the daze spell.	は朦朧化の呪文に抵抗した。
+0x485508	?	1	 manages to overcome the terror.	は恐怖を振り払った。
+0x48552c	?	1	 is unaffected by the freezing cold.	は凍てつく寒さの影響を受けなかった。
+0x485554	?	1	 is cursed.	は呪われた。
+0x485560	?	1	 is slowed.	は動きが鈍った。
+0x48556c	?	1	 is blessed.	は祝福された。
+0x48557c	?	1	 is hasted.	は素早くなった。
+0x485588	?	1	 is poisoned.	は毒に侵された。
+0x485598	?	1	 is stunned.	は気絶した。
+0x4855a8	?	1	 has been charmed.	は魅了された。
+0x4855bc	?	1	 is covered with acid.	は酸を浴びた。
+0x4855d4	?	1	 is filled with total terror.	は完全な恐怖に包まれた。
+0x4855f4	?	1	 is covered by an invisible shield.	は見えない盾に覆われた。
+0x485618	?	1	 is protected by a mental shield.	は精神の盾に守られた。
+0x48563c	?	1	 is now a more convincing leader.	は以前より説得力のある指導者になった。
+0x485660	?	1	 is covered with a shield of magical energy.	は魔力の盾に覆われた。
+0x485690	?	4	  (This effect lasts for a long time.)	  （この効果は長く続く。）
+0x4856b8	?	1	 is covered with a thick shield of magical energy.	は分厚い魔力の盾に覆われた。
+0x4856ec	?	1	 is now protected from enemy attacks.	は敵の攻撃から守られるようになった。
+0x485714	?	1	 is protected from the elements and mental effects.	は自然の力と精神攻撃から守られた。
+0x485748	?	1	 is much healthier now.	はずっと健康になった。
+0x485760	?	1	 now has a much thicker skin.	の皮膚はずっと硬くなった。
+0x485780	?	1	 stumbles back, dazed.	はよろめき、朦朧とした。
+0x485798	?	1	 is covered by a powerful magical shield.	は強力な魔力の盾に覆われた。
+0x4857c4	?	1	 is frozen solid.	は完全に凍りついた。
+0x4857d8	sprintf	1	 disappears.	が消えた。
+0x4857e8	sprintf	1	A summoned 	召喚された
+0x4857f4	message	1	Error: Damage type out of bounds.	
+0x485818	sprintf	1	 takes no damage.	にはダメージがない。
+0x48582c	?	2	 points of damage.	点のダメージ。
+0x485840	internal	14	 takes 	
+0x485848	?	2	 points of magical damage.	点の魔法ダメージ。
+0x485864	?	2	 points of fire damage.	点の火炎ダメージ。
+0x48587c	?	2	 points of disruption damage.	点の崩壊ダメージ。
+0x48589c	?	2	 points of poison damage.	点の毒ダメージ。
+0x4858b8	?	2	 points of acid damage.	点の酸ダメージ。
+0x4858d0	?	2	 points of cold damage.	点の冷気ダメージ。
+0x4858e8	sprintf	1	 collapses into unconsciousness. To revive this character,	は意識を失った。このキャラクターを復活させるには、
+0x485924	message	1	  return to the gates of a friendly town or cast Return Life.	  友好的な町の門へ戻るか、生命回帰を唱えること。
+0x485964	message	1	Equip: Failed. Not enough action points.	装備: 失敗。行動ポイントが足りない。
+0x485990	message	1	Equip: Failed. No room in pack to replace equipped item.	装備: 失敗。持ち物に空きがなく、装備中のアイテムと入れ替えられない。
+0x4859cc	message	1	Error: Character num out of range in can_see_char.	
+0x485a00	?	1	You are encumbered! (You lose action points and have a penalty	荷重オーバーだ！（行動ポイントを失い、
+0x485a40	?	1	  to hit until you drop something.)	  命中にペナルティを受ける。何かを手放すまで）
+0x485a64	sprintf	1	You receive: 	受け取り: 
+0x485a74	sprintf	1	Aldous	オールダス
+0x485a7c	?	1	Ssschah	シュッシャー
+0x485a84	?	1	Mycroft	マイクロフト
+0x485a8c	sprintf	1	Cordelia	コーデリア
+0x485a98	?	1	. (Can't restore characters in combat.)	。（戦闘中はキャラクターを回復できない。）
+0x485ac0	sprintf	2	Can't revive 	復活できない: 
+0x485ad0	sprintf	1	 regains consciousness.	は意識を取り戻した。
+0x485ae8	sprintf	1	. No room to place.	。配置する場所がない。
+0x485afc	sprintf	8	Unused	未使用
+0x485b04	internal	1	mac1	
+0x485b0c	sprintf	1	Scenario Name	シナリオ名
+0x485b1c	?	1	 is surrounded by a many-layered magical shield.	は幾重もの魔力の盾に囲まれた。
+0x485b50	message	1	Spell Failed: Too many creatures already around.	呪文失敗: 周囲にすでに生き物が多すぎる。
+0x485b84	message	1	Return Life: You can't raise the dead during combat.	生命回帰: 戦闘中は死者を蘇生できない。
+0x485bbc	concat3	1	 skill pts.)	ポイント獲得）
+0x485bcc	concat3	1	 magically gains new knowledge. (You gain 	は魔法で新たな知識を得た。（技能
+0x485bf8	0x496220,sprintf	1	New Zone	新しいゾーン
+0x485c04	?	3	NullZoneSc	
+0x485c10	internal	2	%d/%d	
+0x485c18	sprintf	1	AP: %d	行動P: %d
+0x485c20	message	1	Get Item: Your pack is full.	アイテム取得: 持ち物がいっぱいだ。
+0x485c40	message	1	See Statistics: Finish what you're doing first.	統計の表示: まず現在の作業を終えること。
+0x485c70	message	1	Inventory: Finish what you're doing first.	持ち物: まず現在の作業を終えること。
+0x485ca0	message	1	Inventory: A character must be active to see his or her inventory.	持ち物: 持ち物を見るには、キャラクターが操作中である必要がある。
+0x485ce4	?	1	Melee Weapon	近接武器
+0x485cf4	?	1	Missile Weapon	遠隔武器
+0x485d04	?	1	Mage Spell (m)	魔術（m）
+0x485d14	?	1	Priest Spell (p)	祈祷（p）
+0x485d28	?	1	Get Items (g)	取得（g）
+0x485d38	?	1	Attack	攻撃
+0x485d40	?	1	Press to set Quick Spell.	押すと、クイック呪文を設定する。
+0x485d5c	?	1	%s (F%d)	%s（F%d）
+0x485d68	?	1	Quick Use Item (F9)	クイック使用(F9)
+0x485d7c	?	1	%s (F9)	%s（F9）
+0x485d84	?	1	Quick Use Item (F10)	クイック使用(F10)
+0x485d9c	?	1	%s (F10)	%s（F10）
+0x485da8	?	1	Quick Use Item (F11)	クイック使用(F11)
+0x485dc0	?	1	%s (F11)	%s（F11）
+0x485dcc	?	1	Quick Use Item (F12)	クイック使用(F12)
+0x485de4	?	1	%s (F12)	%s（F12）
+0x485df0	label	1	 's' to switch	 's'キーで切り替え
+0x485e00	0x435890	1	Start Combat	戦闘開始
+0x485e10	label	1	End Combat	戦闘終了
+0x485e1c	label	1	Journal, Quest List	日誌、クエスト一覧
+0x485e30	label	1	Avernum 4 Instructions	アヴァーナム4の操作説明
+0x485e48	label	1	Edit Party	パーティー編集
+0x485e54	label	1	See World Map	世界地図を見る
+0x485e64	label	1	Save, Load, Quit	セーブ、ロード、終了
+0x485e78	message	1	Weapon Mode: Select a character first. (Click portrait or type '1'-'4')	武器モード: 先にキャラクターを選択すること。（肖像画をクリックするか、1～4の数字キーを押す）
+0x485ec0	message	1	Default attack is now melee weapon.	既定の攻撃を近接武器にした。
+0x485ee4	message	1	Weapon Mode: You need to equip a missile weapon.	武器モード: 飛び道具を装備する必要がある。
+0x485f18	message	1	Default attack is now missile weapon.	既定の攻撃を飛び道具にした。
+0x485f40	message	1	Mage Spell: This isn't the active character.	魔術: このキャラクターは操作中ではない。
+0x485f70	message	1	Mage Spell: Not enough action points to start a spell.	魔術: 呪文を始めるには行動ポイントが足りない。
+0x485fa8	message	1	Mage Spell: Your armor is too bulky to cast a mage spell.	魔術: 鎧が重すぎて魔術を唱えられない。
+0x485fe4	message	1	Mage Spell: This character can't cast any mage spells now.	魔術: このキャラクターは今、どの魔術も唱えられない。
+0x486020	message	1	Priest Spell: This isn't the active character.	祈祷: このキャラクターは操作中ではない。
+0x486050	message	1	Priest Spell: Not enough action points to start a spell.	祈祷: 祈祷を始めるには行動ポイントが足りない。
+0x48608c	message	1	Priest Spell: This character can't cast any priest spells now.	祈祷: このキャラクターは今、どの祈祷も唱えられない。
+0x4860cc	message	1	Get Items: A character must be active to get items.	アイテム取得: アイテムを取るには、キャラクターが操作中である必要がある。
+0x486100	message	1	Get Items: You don't have enough action points.	アイテム取得: 行動ポイントが足りない。
+0x486130	message	1	Attack a Character: Start combat first. (Press the Combat button or type 'f')	キャラクターを攻撃: 先に戦闘を始めること。（戦闘ボタンを押すか、「f」と入力する）
+0x486180	?	1	Attack: Select a target.	攻撃: 対象を選んでください。
+0x48619c	message	1	Quickspell: Finish what you're doing first.	クイックスペル: 先に現在の作業を終えること。
+0x4861c8	message	1	Quickspell: Not enough action points to start a spell.	クイックスペル: 呪文を始めるには行動ポイントが足りない。
+0x486200	message	1	Quickspell: This isn't the active character.	クイックスペル: このキャラクターは操作中ではない。
+0x486230	message	1	Quickspell: Your armor is too bulky to cast a mage spell.	クイックスペル: 鎧がかさばって、魔術を唱えられない。
+0x486270	message	1	Set Quickspell: This character can't cast any spells. Choose someone who can.	クイックスペル設定: このキャラクターは呪文を唱えられない。唱えられるキャラクターを選ぶこと。
+0x4862c0	message	1	Use Item: Finish what you're doing first.	アイテム使用: 先に現在の作業を終えること。
+0x4862f0	?	1	Use Item: To use an item in combat, your character must be active.	アイテム使用: 戦闘中にアイテムを使うには、キャラクターが行動可能でなければならない。
+0x486334	message	1	Equip Weapon: You don't have enough action points.	武器装備: 行動ポイントが足りない。
+0x486368	message	2	Swap Weapons: You switch to a new weapon.	武器の持ち替え: 新しい武器に持ち替えた。
+0x486394	message	1	Equip Weapon: You equip a new weapon.	武器装備: 新しい武器を装備した。
+0x4863bc	message	1	(Shield moved to pack.)	（盾を持ち物に移した。）
+0x4863d8	message	1	Equip Weapon: Couldn't equip two-handed weapon. No room for shield in pack.	武器装備: 両手武器を装備できない。持ち物に盾を入れる空きがない。
+0x486424	?	1	Quick Use Item: First, put an item in a Quick Use slot.	クイック使用アイテム: まず、クイック使用の枠にアイテムを入れること。
+0x48645c	message	1	End Combat: Canceled. Combat will continue.	戦闘終了: 中止しました。戦闘は続きます。
+0x486488	message	1	World Map: Finish what you're doing first.	世界地図: まず現在の作業を終えること。
+0x4864b4	?	1	Automap Note: 	自動マップのメモ: 
+0x4864c4	?	2	%sScripts%s%s	
+0x4864d4	sprintf	1	Script name empty or too long.	
+0x4864f4	message	1	Failed to allocate script memory.	
+0x486518	message	1	Failed to load script text.	
+0x486534	message	1	Failed to allocate memory for token list.	
+0x486560	sprintf	1	 script failure: Token longer than max length in line 	
+0x486598	sprintf	1	 script failure: Variable name too long in line 	
+0x4865cc	sprintf	1	 script failure: Too many variables defined in line 	
+0x486604	concat3	2	 in line 	
+0x486610	sprintf	1	 script failure: Invalid identifier 	
+0x486638	sprintf	1	 script failure: Overlong operator in line 	
+0x486664	sprintf	1	 script failure: Invalid operator 	
+0x486688	sprintf	1	 script failure: Overlong or unending string in line 	
+0x4866c0	sprintf	1	 script failure: Too many strings in line 	
+0x4866ec	sprintf	1	 script failure: Invalid symbol in line 	
+0x486718	sprintf	1	 internal error: Token stack overflow in 	
+0x486744	sprintf	1	 internal error: Bad initialization in 	
+0x48676c	?	2	 Error: Internal error 1 in line 	
+0x486790	?	1	 Error: Unmatched right bracket in line 	
+0x4867bc	?	1	 Error: Internal error 2 in line 	
+0x4867e0	concat3	1	 Error: Right bracket without matching conditional in line 	
+0x48681c	?	2	 Error: Missing semicolon in line 	
+0x486840	sprintf	1	 Error: No body declared.	
+0x48685c	?	1	 Error: State with no number in line 	
+0x486884	sprintf	2	 Error: Tried to run invalid creature script.	
+0x4868b4	internal	1	 Error: Creature script bad header.	
+0x4868d8	concat3	4	 Error: State not found - 	
+0x4868f4	?	1	 Error: Tried to process invalid dialogue script.	
+0x486928	internal	1	 Error: Dialogue script bad header.	
+0x48694c	sprintf	1	Dialogue script error: No dialogue node selected in line 	
+0x486988	sprintf	1	Dialogue script error: Extra begintalkscript in line 	
+0x4869c0	sprintf	2	Dialogue script error: Missing number in line 	
+0x4869f0	sprintf	1	Dialogue script error: Dialogue node out of range in line 	
+0x486a2c	sprintf	3	Dialogue script error: Missing = in line 	
+0x486a58	sprintf	1	Dialogue script error: Missing ; in line 	
+0x486a84	sprintf	2	Dialogue script error: Missing string data in line 	
+0x486ab8	sprintf	1	Dialogue script error: Missing matching break in line 	
+0x486af0	?	1	Dialogue script error: Improper block definer in line 	
+0x486b28	sprintf	1	Dialogue script error:  in line 	
+0x486b4c	?	1	Dialogue script error: Missing semicolon in line 	
+0x486b80	?	1	 Error: Tried to run invalid zone script.	
+0x486bac	internal	1	 Error: Zone file bad header.	
+0x486bcc	internal	1	 Error: Creature file bad header.	
+0x486bf0	sprintf	1	 Error: Tried to run invalid object script	
+0x486c1c	internal	1	 Error: Object file bad header.	
+0x486c3c	?	2	 Error: Too many nodes used in line 	
+0x486c64	message	1	  Your script is doing too much, hot-shot!	
+0x486c90	sprintf	1	 Error: State not ended properly in line 	
+0x486cbc	sprintf	1	 Error: Missing ( in line 	
+0x486cd8	sprintf	1	 Error: Missing ) in line 	
+0x486cf4	sprintf	1	 Error: Unmatched left bracket in line 	
+0x486d1c	sprintf	1	 Error: While loop without left bracket in line 	
+0x486d50	sprintf	2	 Error: Missing = in line 	
+0x486d6c	sprintf	1	 Error: Wrong function type in line 	
+0x486d94	sprintf	1	 Error: Missing left parenthesis in line 	
+0x486dc0	sprintf	2	 Error: Improper command in line 	
+0x486de4	sprintf	2	 Error: Unexpected end of file in line 	
+0x486e0c	sprintf	2	 Error: Unmatched left parenthesis in line 	
+0x486e38	sprintf	1	 Error: Empty expression in line 	
+0x486e5c	?	1	 Major Error: Expression TOO LONG in line 	
+0x486e88	sprintf	1	 Error: Bad term in expression in line 	
+0x486eb0	sprintf	1	 Error: Bad expression in line 	
+0x486ed0	message	1	Error: Tried to parse invalid scenario data file.	
+0x486f04	internal	1	Error: Scenario data file bad header.	
+0x486f2c	?	1	Scenario script error: Extra beginscenscript in line 	
+0x486f64	?	1	Scenario script error: Missing number in line 	
+0x486f94	?	3	Scenario script error: Value out of range in line 	
+0x486fc8	?	1	Scenario script error: Improper block definer in line 	
+0x487000	?	1	Scenario script error: Unexpected variable definer in line 	
+0x48703c	?	3	Scenario script error: Missing = in line 	
+0x487068	?	2	Scenario script error: Missing value in line 	
+0x487098	?	1	Scenario script error: Out of place import command in line 	
+0x4870d4	?	1	Scenario script error: Out of place variable definer in line 	
+0x487114	sprintf	1	Scenario script error: Assignment error in line 	
+0x487148	?	1	Scenario script error: Unexpected array definer in line 	
+0x487184	?	1	Scenario script error: Missing array member in line 	
+0x4871bc	?	1	Scenario script error: Out of place array definer in line 	
+0x4871f8	?	1	Scenario script error: Array assignment error in line 	
+0x487230	?	1	Scenario script error: Unexpected string definer in line 	
+0x48726c	message	1	Scenario script error: Missing string in line 	
+0x48729c	message	1	Internal string error 1	
+0x4872b4	?	1	Scenario script error: Out of place string in line 	
+0x4872e8	?	1	Scenario script error: String assignment error in line 	
+0x487320	message	1	Scenario script error: Improper command in line 	
+0x487354	?	1	Scenario script error: Missing semicolon in line 	
+0x487388	message	2	Tried to load zone script out of range.	
+0x4873b0	sprintf	1	Error: Couldn't create an AI for zone. Script: 	
+0x4873e0	internal	3	%s.txt	
+0x4873e8	concat3	1	Error: Couldn't create an AI for creature 	
+0x487414	concat3	1	Error: Couldn't create an AI for object 	
+0x487440	message	1	Error: Couldn't create a zone dialogue script.	
+0x487470	internal	1	%sdlg.txt	
+0x48747c	sprintf	2	OK.	了解。
+0x487480	?	1	I have another question.	「もう一つ質問がある。」
+0x48749c	?	1	That's all for now. Thanks.	「今はこれで全部だ。ありがとう。」
+0x4874b8	sprintf	1	The conversation ends.	会話が終わった。
+0x4874d0	message	2	Major Error 1: Couldn't initialize scen data.	
+0x487500	internal	1	av4floorster.txt	
+0x487514	internal	1	av4itemschars.txt	
+0x487528	internal	1	av4objsmisc.txt	
+0x487538	sprintf	1	 Error: Creature/object-only function in line 	
+0x487568	?	1	 Error: Creature-only function in line 	
+0x487590	sprintf	2	 Error: Function call error (no parameters) in line 	
+0x4875c8	sprintf	2	 Error: Function call error (unary) in line 	
+0x4875f8	?	1	 Error: Bad SDF in line 	
+0x487614	sprintf	2	 Error: Function call error (binary) in line 	
+0x487644	?	2	 Error: Function call error (trinary) in line 	
+0x487674	sprintf	2	 Error: Wrong number/type of procedure parameters in line 	
+0x4876b0	concat3	1	Debug Value: 	
+0x4876c0	sprintf	1	Debug location: %d %d	
+0x4876d8	message	1	Error: Can't use set_state with value below 2.	
+0x487708	sprintf	1	 Error: Bad SDF parameters in line 	
+0x48772c	internal	2	%s%d%s	
+0x487734	sprintf	1	 Error: Dialogue-only procedure in line 	
+0x487760	message	1	You don't have room to carry this item. It falls to the floor.	持ち物に空きがないため、アイテムは床に落ちた。
+0x4877a0	internal	1	%s %s	
+0x4877a8	message	1	Your skill points have changed.	技能ポイントが変わった。
+0x4877c8	message	1	Peculiar error. Undefined function called.	
+0x4877f4	sprintf	2	 Error: Procedure call error in line 	
+0x48781c	sprintf	2	 Error: Location-returning function error in line 	
+0x487850	internal	1	Registered Copy. Thank you!|Copyright 2005-12, Spiderweb Software|All Rights Reserved  v1.0.1S	
+0x4878b0	internal	1	Unregistered Copy.   v1.0.1S|Registration Code: %d|To find out how to order, select How To Order.|Copyright 2005-12, Spiderweb Software, All Rights Reserved	
+0x487950	internal	170	%-79.79s	
+0x48795c	internal	32	%s%s%s%s%d%s	
+0x48796c	internal	98	%s%s%s%s%s	
+0x487978	sprintf	1	Debug Nums: %d %d %d %d	
+0x487990	sprintf	2	Now entering: 	入場: 
+0x4879a0	message	1	Move: You can't try to move that far away.	移動: そんなに遠くへは移動できない。
+0x4879d0	message	1	Move: Can't get there. Something is blocking your way, or it's too far.	移動: そこへは行けない。何かが行く手を阻んでいるか、遠すぎる。
+0x487a18	message	1	Move: Can't get there from where you are.	移動: 今いる場所からは、そこへ行けない。

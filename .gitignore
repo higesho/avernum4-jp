@@ -1,0 +1,59 @@
+# build output
+*.obj
+*.exp
+*.lib
+*.dll
+__pycache__/
+dist/
+
+# Text extracted from the original game (English source) and generated images:
+# not redistributed. Regenerate them with the tools from your own copy of the game.
+test_src/
+img_out/
+trans/units/
+trans/chunks/
+trans/jobs/
+trans/jobs.json
+trans/jobs_remaining.json
+trans/known.json
+trans/gloss_in/
+trans/glossary_candidates.json
+trans/check_report.json
+trans_exe/chunks/
+trans_exe/jobs/
+trans_exe/fragctx.json
+trans_scen/chunks/
+trans_scen/jobs/
+trans_scen/units.json
+
+# work trees and local-only notes
+orig_tree/
+build_tree/
+img_preview/
+ref_eftp/
+trans/REVIEW_NOTES.md
+trans/STYLE.md
+trans/*_BRIEF.md
+trans_exe/*_BRIEF.md
+trans_scen/*_BRIEF.md
+trans/GLOSS_BRIEF.md
+trans/gloss_in/
+trans_exe/fragctx.json
+exe_strings.tsv.ctx.json
+DEVELOPMENT.md
+TRANSLATION.md
+EXE_STRINGS.md
+dist_src/*.bak
+
+# Avernum 3 work files
+ref_a2/
+*.bak
+avernum_jp_build.bin
+ref_prev/
+src_*.c.bak
+strtab.tsv.bak
+trans_str/units.json
+trans_str/chunks/
+trans_str/jobs/
+trans_str/*_BRIEF.md
+trans_str/jobs.json
