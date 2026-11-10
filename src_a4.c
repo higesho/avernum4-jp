@@ -257,6 +257,75 @@ static void install_token_estimate_fix(void)
     jp_log("token estimate fix installed\n");
 }
 
+// ---------------------------------------------------------------- resolution at startup
+// With "Don't Change Resolution" (also "Don't Change" / "Never Change" in the start-up question) the
+// game only runs when the desktop is exactly 16-bit colour and at least 1024x768; otherwise it shows
+// "Avernum 4 requires the monitor to be set to exactly 16 Bit color ..." and quits, every time, and
+// the setting can no longer be changed in the game. Today's desktops are 32-bit, so in that case the
+// game is sent down the "Change Resolution" path instead (the setting is changed to it as well).
+//   res_keep (0x408eff): lea edx,[ebp-14h] / push edx / call [GetDesktopWindow]   -> jmp res_keep_stub
+//   res_keep_back (0x408f09): the instruction after that call; res_done (0x408f56): "Change" path
+#define A4_RES_SETTING g_hv[HV_RES_SETTING] /* word: 0 ask, 1 change, 2 don't change */
+#define A4_RES_KEEP g_hv[HV_RES_KEEP]
+#define A4_RES_KEEP_BACK g_hv[HV_RES_KEEP_BACK]
+#define A4_RES_DONE g_hv[HV_RES_DONE]
+static const BYTE kResKeepOrig[6] = {0x8D, 0x55, 0xEC, 0x52, 0xFF, 0x15};
+static DWORD g_resKeepBack, g_resDone, g_resOk;
+static HWND(WINAPI *g_getDesktopWindow)(void) = GetDesktopWindow;
+
+static void __cdecl check_desktop_mode(void)
+{
+    HDC dc = GetDC(NULL);
+    int bpp = GetDeviceCaps(dc, BITSPIXEL);
+    RECT r;
+    ReleaseDC(NULL, dc);
+    GetWindowRect(GetDesktopWindow(), &r);
+    g_resOk = bpp == 16 && r.right - r.left >= 1024 && r.bottom - r.top >= 768;
+    if (!g_resOk)
+    {
+        jp_log("\"Don't Change Resolution\" needs a 16-bit desktop of 1024x768 or more (this one: %d bit, %dx%d): "
+               "the resolution is changed instead\n", bpp, (int)(r.right - r.left), (int)(r.bottom - r.top));
+        if (*(short *)VA(A4_RES_SETTING) == 2)
+            *(short *)VA(A4_RES_SETTING) = 1;
+    }
+}
+
+__declspec(naked) static void res_keep_stub(void)
+{
+    __asm {
+        pushad
+        call check_desktop_mode
+        popad
+        cmp g_resOk, 0
+        je change
+        lea edx, [ebp - 0x14]
+        push edx
+        call dword ptr [g_getDesktopWindow]
+        jmp dword ptr [g_resKeepBack]
+    change:
+        jmp dword ptr [g_resDone]
+    }
+}
+
+static void install_resolution_fix(void)
+{
+    BYTE *p = (BYTE *)VA(A4_RES_KEEP);
+    DWORD old;
+    if (memcmp(p, kResKeepOrig, sizeof kResKeepOrig) != 0)
+    {
+        jp_log("resolution fix skipped: unexpected bytes at %06x\n", A4_RES_KEEP);
+        return;
+    }
+    g_resKeepBack = (DWORD)VA(A4_RES_KEEP_BACK);
+    g_resDone = (DWORD)VA(A4_RES_DONE);
+    VirtualProtect(p, 5, PAGE_EXECUTE_READWRITE, &old);
+    p[0] = 0xE9;
+    *(DWORD *)(p + 1) = (DWORD)res_keep_stub - (DWORD)(p + 5);
+    VirtualProtect(p, 5, old, &old);
+    FlushInstructionCache(GetCurrentProcess(), p, 5);
+    jp_log("resolution fix installed\n");
+}
+
 // ---------------------------------------------------------------- start-up
 static void install_text_hooks(void)
 {
@@ -311,6 +380,7 @@ BOOL WINAPI DllMain(HINSTANCE inst, DWORD reason, LPVOID reserved)
         }
         install_text_hooks();
         install_token_estimate_fix();
+        install_resolution_fix();
         load_string_table(data);
         load_exe_strings(data);
         prepare_redirects(dir, data);

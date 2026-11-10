@@ -40,6 +40,10 @@ Spiderweb Software の RPG「Avernum 4」（Steam 版）を日本語で遊べる
     Steam の「ゲームファイルの整合性を確認」を実行すると直ることがあります。
   ・英語のまま起動する場合は、avernum_jp\avernum_jp.log に「not supported」と出ていないか確認してください。
     お使いの Avernum 4.exe に対応できなかったことを示します（ゲームの更新や、他のストアの版など）。
+  ・ゲーム設定の「起動時の解像度」を「解像度は変更しない」にしていても、デスクトップが 16 ビット色でないときは
+    解像度を変えて起動します（元のゲームは「16 Bit color」のエラーが出て起動できなくなるため）。
+    日本語化を外した状態でこのエラーが出て起動できないときは、ドキュメントの
+    Spiderweb Software\Avernum 4 Saved Games\Avernum4Settings.dat を削除すると設定が初期値に戻ります（セーブは消えません）。
 
 
 ■ 注意
