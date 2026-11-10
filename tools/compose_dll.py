@@ -32,7 +32,10 @@ def main(a3_path, out_path):
     exe = exe[:i] + ('static void install_sprintf_hook(void)\n{\n'
                      '    jp_log("positional formats (%%1$s) are not supported in Avernum 4 exe strings\\n");\n}\n\n') + exe[j:]
     # read_all() is defined in the redirect part; the string-table loader uses it too
-    out = head + log + exe + redir + a4
+    hooks = open(os.path.join(HERE, 'src_hooks.c'), encoding='utf-8').read()
+    tables = open(os.path.join(HERE, 'hooks_a4.inc'), encoding='utf-8').read()
+    hooks = hooks.replace('/*HOOK_TABLES*/', tables)
+    out = head + log + exe + redir + hooks + a4
     open(out_path, 'w', encoding='utf-8', newline='\n').write(out)
     print('wrote', out_path, out.count('\n'), 'lines')
 

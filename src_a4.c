@@ -9,6 +9,7 @@ static void load_config(const char *dir)
     _snprintf(ini, sizeof ini, "%s\\avernum_jp.ini", dir);
     GetPrivateProfileStringA("font", "face", g_fontFace, g_fontFace, sizeof g_fontFace, ini);
     g_sizeAdjust = GetPrivateProfileIntA("font", "size_adjust", g_sizeAdjust, ini);
+    g_forceScan = GetPrivateProfileIntA("debug", "force_scan", 0, ini);
 }
 
 // ---------------------------------------------------------------- text encoding
@@ -204,16 +205,17 @@ static void load_string_table(const char *dir)
 }
 
 // ---------------------------------------------------------------- script token estimate
-// Before tokenizing a script, 0x457b40 estimates the token count to size the token array.
+// Before tokenizing a script, the game (0x457b40) estimates the token count to size the token array.
 // It counts every byte that is not a digit, letter, '_' or blank as its own token -- also
 // inside string literals -- so Japanese adds 2 per character, a long dialogue file overflows
 // the count, the allocation fails and the CRT aborts ("Runtime Error!" while loading
 // dialogue scripts). A literal is still one token, so classify bytes >= 0x80 like letters.
-//   0x457b75: cmp al,30h / jl 457b84 / cmp al,39h / jg 457b84   -> jmp tok_class_stub
-#define A4_TOKCLASS 0x457b75
-#define A4_TOK_DIGIT 0x457b7d
-#define A4_TOK_OTHER 0x457b84
-#define A4_TOK_LETTER 0x457ba5
+//   tok_class (0x457b75): cmp al,30h / jl tok_other / cmp al,39h / jg tok_other -> jmp tok_class_stub
+// (the DLL finds these places with src_hooks.c, so other builds of the game work too)
+#define A4_TOKCLASS g_hv[HV_TOK_CLASS]
+#define A4_TOK_DIGIT g_hv[HV_TOK_DIGIT]
+#define A4_TOK_OTHER g_hv[HV_TOK_OTHER]
+#define A4_TOK_LETTER g_hv[HV_TOK_LETTER]
 static const BYTE kTokClassOrig[8] = {0x3C, 0x30, 0x7C, 0x0B, 0x3C, 0x39, 0x7F, 0x07};
 static DWORD g_tokDigit, g_tokOther, g_tokLetter;
 
@@ -240,7 +242,7 @@ static void install_token_estimate_fix(void)
     DWORD old;
     if (memcmp(p, kTokClassOrig, sizeof kTokClassOrig) != 0)
     {
-        jp_log("token estimate fix skipped: unexpected bytes at %06x (not the Steam build?)\n", A4_TOKCLASS);
+        jp_log("token estimate fix skipped: unexpected bytes at %06x\n", A4_TOKCLASS);
         return;
     }
     g_tokDigit = (DWORD)VA(A4_TOK_DIGIT);
@@ -302,6 +304,11 @@ BOOL WINAPI DllMain(HINSTANCE inst, DWORD reason, LPVOID reserved)
         load_config(dir);
         g_base = (BYTE *)GetModuleHandleA(NULL);
         jp_log("Avernum 4 JP hook loaded. base=%p face=%s\n", g_base, g_fontFace[0] ? g_fontFace : "(game)");
+        if (!resolve_hooks("Avernum 4.exe"))
+        {
+            jp_log("this Avernum 4.exe is not supported: Japanese is turned off and the game runs unchanged\n");
+            return TRUE;
+        }
         install_text_hooks();
         install_token_estimate_fix();
         load_string_table(data);
