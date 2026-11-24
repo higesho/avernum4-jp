@@ -5,6 +5,8 @@
 *.dll
 __pycache__/
 dist/
+build/
+work/
 
 # Text extracted from the original game (English source) and generated images:
 # not redistributed. Regenerate them with the tools from your own copy of the game.

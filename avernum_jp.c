@@ -1009,8 +1009,10 @@ static int resolve_hooks(const char *exeName)
         int s;
         m[i] = hook_find(&kHookPats[i], &s);
         scanned += s;
+#ifdef AVJP_TEST
         if (g_forceScan == 2 && i == HP_COUNT - 1)
             m[i] = NULL; // [debug] force_scan=2: pretend one is missing (tests the fall-back to English)
+#endif
         if (!m[i])
         {
             jp_log("not found in this %s: %s\n", exeName, kHookPats[i].name);
@@ -1053,7 +1055,10 @@ static void load_config(const char *dir)
     _snprintf(ini, sizeof ini, "%s\\avernum_jp.ini", dir);
     GetPrivateProfileStringA("font", "face", g_fontFace, g_fontFace, sizeof g_fontFace, ini);
     g_sizeAdjust = GetPrivateProfileIntA("font", "size_adjust", g_sizeAdjust, ini);
+#ifdef AVJP_TEST
+    // 試験版（build.bat test）だけ: [debug] force_scan=1 で探索を強制、=2 で 1 つ見つからないふりをする
     g_forceScan = GetPrivateProfileIntA("debug", "force_scan", 0, ini);
+#endif
 }
 
 // ---------------------------------------------------------------- text encoding

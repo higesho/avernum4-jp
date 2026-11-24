@@ -9,7 +9,10 @@ static void load_config(const char *dir)
     _snprintf(ini, sizeof ini, "%s\\avernum_jp.ini", dir);
     GetPrivateProfileStringA("font", "face", g_fontFace, g_fontFace, sizeof g_fontFace, ini);
     g_sizeAdjust = GetPrivateProfileIntA("font", "size_adjust", g_sizeAdjust, ini);
+#ifdef AVJP_TEST
+    // 試験版（build.bat test）だけ: [debug] force_scan=1 で探索を強制、=2 で 1 つ見つからないふりをする
     g_forceScan = GetPrivateProfileIntA("debug", "force_scan", 0, ini);
+#endif
 }
 
 // ---------------------------------------------------------------- text encoding
